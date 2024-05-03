@@ -31,13 +31,13 @@ def run():
     par.Ldev = 30 #based on literature for basil plant development
     par.Lmid = 20 #based on literature for basil plant development
     par.Lend = 20 #based on literature for basil plant development
-    par.hini = 0.1 #height initial of 1 cm because it started with seeds
-    par.hmax = 0.8 
+    par.hini = 0.036 #Initial Height in m (3.6cm overall as of may 3 2024, experiment start)
+    par.hmax = 0.8 #maximum Height in m 
     par.thetaFC = 0.14 #Vol. Soil Water Content, Field Capacity (FAO-56, table 19, loamy sand substrat 5)
     par.thetaWP = 0.060 #Vol. Soil Water Content, Wilting point (FAO-56, table 19, loamy sand substrat 5)
     par.theta0 = 0.000 #Initial volume soil water content
-    par.Zrini = 0.05 #Initial root depth, 0m because its seeds
-    par.Zrmax = 0.0850 # maximum root depth (m), 8.5 cm because of the pot height
+    par.Zrini = 0.035 #Initial root depth, as of may 3 2024 (experiment start)
+    par.Zrmax = 0.0840 # maximum root depth (m), 8.4 cm because of the pot height
     par.pbase = 0.40
     par.Ze = 0.1143
     par.REW = 8.0
@@ -77,8 +77,8 @@ def run():
    
 
     #Run the model
-    mdl = fao.Model('2024-102','2024-112', par, wth, irr=irr, aq_Ks=True,
-                    comment = '2024 basil previous test')
+    mdl = fao.Model('2024-102','2024-123', par, wth, irr=irr, aq_Ks=True,
+                    comment = 'btk 2024 basil trial')
     mdl.run()
     print(mdl)
     mdl.savefile(os.path.join(module_dir,'btkdebasil2024.out'))
