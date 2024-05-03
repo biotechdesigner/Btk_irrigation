@@ -1,7 +1,7 @@
 ************************************************************************
 pyfao56: FAO-56 Evapotranspiration in Python
 Parameter Data
-Timestamp: 04/26/2024 13:17:09
+Timestamp: 05/03/2024 13:20:28
 ************************************************************************
 Comments: 2024 Basil
 ************************************************************************
@@ -12,13 +12,13 @@ Comments: 2024 Basil
        30 Ldev, Length Stage Development (days) (FAO-56 Table 11)
        20 Lmid, Length Stage Mid (days) (FAO-56 Table 11)
        20 Lend, Length Stage End (days) (FAO-56 Table 11)
-   0.1000 hini, Plant Height Initial (m)
+   0.0360 hini, Plant Height Initial (m)
    0.8000 hmax, Plant Height Maximum (m) (FAO-56 Table 12)
    0.1400 thetaFC, Vol. Soil Water Content, Field Capacity (cm3/cm3)
    0.0600 thetaWP, Vol. Soil Water Content, Wilting Point (cm3/cm3)
    0.0000 theta0, Vol. Soil Water Content, Initial (cm3/cm3)
-   0.0500 Zrini, Rooting Depth Initial (m)
-   0.0850 Zrmax, Rooting Depth Maximum (m) (FAO-56 Table 22)
+   0.0350 Zrini, Rooting Depth Initial (m)
+   0.0840 Zrmax, Rooting Depth Maximum (m) (FAO-56 Table 22)
    0.4000 pbase, Depletion Fraction (p) (FAO-56 Table 22)
    0.1143 Ze, Depth of surface evaporation layer (m) (FAO-56 Table 19 and Page 144)
    8.0000 REW, Total depth Stage 1 evaporation (mm) (FAO-56 Table 19)
