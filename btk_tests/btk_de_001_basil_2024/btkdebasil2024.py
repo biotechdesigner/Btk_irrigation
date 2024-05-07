@@ -72,7 +72,8 @@ def run():
     """
     irr = fao.Irrigation(comment = '2024 basil')
     irr.addevent(2024, 123, 1.264, 1.00)
-    irr.addevent(2024, 124, 1.264, 1.00)
+    irr.addevent(2024, 124, 18.92, 1.00)
+    irr.addevent(2024, 128, 6.767, 1.00)
     irr.savefile(os.path.join(module_dir,'btkdebasil2024.irr'))
     irr.loadfile(os.path.join(module_dir,'btkdebasil2024.irr'))
    
