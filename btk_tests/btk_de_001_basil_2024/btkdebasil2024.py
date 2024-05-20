@@ -84,7 +84,8 @@ def run():
     irr.addevent(2024, 137, 2.854, 1.00)
     irr.addevent(2024, 138, 5.228, 1.00)
     irr.addevent(2024, 139, 1.312, 1.00)
-
+    irr.addevent(2024, 140, 4.8, 1.00)
+    
     irr.savefile(os.path.join(module_dir,'btkdebasil2024.irr'))
     irr.loadfile(os.path.join(module_dir,'btkdebasil2024.irr'))
    
